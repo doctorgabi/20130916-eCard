@@ -3,6 +3,7 @@ body
   background-image:url('../images/background_light.jpg');
   background-repeat:no-repeat;
   background-size:100%;
+  background-
 }
 
 #main
@@ -12,16 +13,23 @@ body
   border: 1px solid red;
   }
 
-#logo{
+#logo
+{
   position: relative;
   top: 10px;
   left: 60px;
 }
 
-#lead > article{
+#lead
+{
+  background-color:white;
+}
+
+#lead > article
+{
   border: 1px solid red;
-  width: 200px
-  height: 700px;
+  width: 500px;
+  /*height: 700px;*/
   float: left;
 }
 
@@ -33,5 +41,16 @@ body
 .clear_floats
 {
   clear:both;
+}
+
+#subsection
+{
+  background-color:#eaeaea;
+}
+
+#subsection > article:nth-child(2)
+{
+  border-top:1px solid gray;
+  border-bottom:1px solid gray;
 }
 

@@ -1,9 +1,17 @@
+
+
 body
 {
   background-image:url('../images/background_light.jpg');
   background-repeat:no-repeat;
   background-size:100%;
   height: 100%;
+  background-color: #c4c0be;
+}
+span
+{
+  text-decoration: underline;
+  color: blue;
 }
 
 h1
@@ -40,16 +48,21 @@ p
 
 #lead
 {
+<<<<<<< HEAD
   background-image:url("../images/background_block_slice.jpg");
   background-repeat:repeat-x;
   width:960px;
+=======
+  background-image: url(../images/background_block_slice.jpg);
+  background-repeat: repeat-x;
+  width: 960px;
+  height: 350px;
+>>>>>>> 9284a5eded5fb49ea184d56b09243d507f9dd93d
 }
 
 #lead > article
 {
-  /*border: 1px solid red;*/
   width: 500px;
-  /*height: 700px;*/
   float: left;
 }
 
@@ -72,19 +85,28 @@ p
   clear:both;
 }
 
+/**********************subsection 1 article stuff*****************/
 #subsection1
 {
-  background-color:#eaeaea;
-  width:700px;
-  float:left;
+  background-image: url(../images/background_block_slice.jpg);
+  background-repeat: repeat-x;
+  width: 700px;
+  float: left;
+
 }
 
 #subsection1 > article:nth-child(2)
 {
   border-top:1px solid gray;
   border-bottom:1px solid gray;
+<<<<<<< HEAD
   background-image:url("../images/background_block_slice.jpg");
+=======
+>>>>>>> 9284a5eded5fb49ea184d56b09243d507f9dd93d
 }
+
+
+/*************Sidebar Stuff***********/
 
 #subsection2
 {
@@ -92,6 +114,10 @@ p
   background-color:rgb(175, 175, 175);
   float:left;
   height:535px;
+}
+
+ul{
+  font-size: 18px;
 }
 
 li

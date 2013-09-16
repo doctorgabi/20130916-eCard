@@ -13,6 +13,26 @@ span
   text-decoration: underline;
   color: blue;
 }
+
+h1
+{
+  font-size:25px;
+  font-weight:bold;
+}
+
+h2
+{
+  font-size:25px;
+  font-weight:bold;
+}
+
+p
+{
+  font-size:12px;
+  font-weight:normal;
+  color:rgba(150,150,150,1);
+}
+
 #main
 {
   width:960px;
@@ -37,7 +57,6 @@ span
 #lead > article
 {
   width: 500px;
-  /*height: 700px;*/
   float: left;
 }
 
@@ -67,30 +86,33 @@ span
   background-repeat: repeat-x;
   width: 700px;
   float: left;
+
 }
 
 #subsection1 > article:nth-child(2)
 {
   border-top:1px solid gray;
   border-bottom:1px solid gray;
-
 }
 
 
 /*************Sidebar Stuff***********/
+
 #subsection2
 {
-  background-color: rgb(175, 175, 175);
-  width: 260px;
-  float: left;
-}
-
-li
-{
-  list-style: none;
+  width:260px;
+  background-color:rgb(175, 175, 175);
+  float:left;
+  height:535px;
 }
 
 ul{
   font-size: 18px;
+}
 
+li
+{
+    list-style:none;
+    color:rgba(100,100,100,1);
+    font-size:12px;
 }

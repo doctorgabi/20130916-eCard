@@ -1,23 +1,21 @@
-body{
-  background-image: url(../images/background_light.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+body
+{
+  background-image:url('../images/background_light.jpg');
+  background-repeat:no-repeat;
+  background-size:100%;
 }
+
+#main
+{
+  width:960px;
+  margin:70px 0 0 60px;
+  border: 1px solid red;
+  }
 
 #logo{
   position: relative;
   top: 10px;
   left: 60px;
-}
-
-#main{
-  width: 960px;
-  margin: 70px 0 0 60px;
-  border: 1px solid red;
-}
-
-.clear{
-  clear: both;
 }
 
 #lead > article{
@@ -32,4 +30,8 @@ body{
   float: left;
 }
 
+.clear_floats
+{
+  clear:both;
+}
 

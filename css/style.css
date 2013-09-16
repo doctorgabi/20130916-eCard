@@ -40,7 +40,9 @@ p
 
 #lead
 {
-  background-color:white;
+  background-image:url("../images/background_block_slice.jpg");
+  background-repeat:repeat-x;
+  width:960px;
 }
 
 #lead > article
@@ -81,7 +83,7 @@ p
 {
   border-top:1px solid gray;
   border-bottom:1px solid gray;
-
+  background-image:url("../images/background_block_slice.jpg");
 }
 
 #subsection2

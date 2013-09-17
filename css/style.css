@@ -1,5 +1,4 @@
-
-
+/*************standard styles for all*************/
 body
 {
   background-image:url('../images/background_light.jpg');
@@ -8,22 +7,19 @@ body
   height: 100%;
   background-color: #c4c0be;
 }
-span
-{
-  text-decoration: underline;
-  color: blue;
-}
 
 h1
 {
   font-size:25px;
   font-weight:bold;
+  padding-left: 10px;
 }
 
 h2
 {
   font-size:25px;
   font-weight:bold;
+  padding-left: 10px
 }
 
 p
@@ -31,7 +27,19 @@ p
   font-size:12px;
   font-weight:normal;
   color:rgba(150,150,150,1);
+  padding-left: 10px;
 }
+
+.clear_floats
+{
+  clear:both;
+}
+
+section
+{
+  background-color: rgb(255, 255, 255);
+}
+/**********styles for individual sections*********/
 
 #main
 {
@@ -46,18 +54,21 @@ p
   left: 60px;
 }
 
+/****************lead section************/
 #lead
 {
   background-image: url(../images/background_block_slice.jpg);
   background-repeat: repeat-x;
   width: 960px;
-  height: 350px;
+  height: 330px;
+  background-color: rgb(255, 255, 255);
 }
 
 #lead > article
 {
   width: 500px;
   float: left;
+  height: 250px;
 }
 
 #lead > *
@@ -74,12 +85,8 @@ p
   float: left;
 }
 
-.clear_floats
-{
-  clear:both;
-}
 
-/**********************subsection 1 article stuff*****************/
+/**********************subsection 1*****************/
 #subsection1
 {
   background-image: url(../images/background_block_slice.jpg);
@@ -89,30 +96,56 @@ p
 
 }
 
-#subsection1 > article:nth-child(2)
+#subsection1 > article:nth-child(3)
 {
-  border-top:1px solid gray;
-  border-bottom:1px solid gray;
+  margin-bottom: 10px;
+}
+
+.underline
+{
+  width: 680px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid rgba(150, 150, 150, 0.7)
 }
 
 
-/*************Sidebar Stuff***********/
+/*************Sidebar***********/
 
 #subsection2
 {
   width:260px;
   background-color:rgb(175, 175, 175);
   float:left;
-  height:535px;
+  height:560px;
 }
 
 ul{
   font-size: 18px;
+  padding-left: 15px;
 }
 
 li
 {
-    list-style:none;
+    list-style-type: none;
     color:rgba(100,100,100,1);
     font-size:12px;
+    line-height: 20px;
+}
+
+
+/*************Footer***************/
+
+footer{
+  height: 60px;
+  width: 960px;
+  margin-left: 60px;
+  background-color: black;
+}
+
+footer > p
+{
+  float: right;
+  margin-top: 20px;
+  margin-right: 15px;
 }
